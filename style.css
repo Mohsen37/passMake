@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+}
+
+:root {
+  --mainColor : #1f2937;
+  --secondryColor : #4b5563;
+  --greenColor : #10b981;
+}
+
+.container {
+  background-color: var(--mainColor);
+  color: white;
+  padding: 4em 2em;  
+  width: 550px;
+  font-family: Helvetica, sans-serif;
+}
+
+.texts {
+  margin-bottom: 3em;
+}
+
+.green-text {
+  color: var(--greenColor);
+}
+.small-text {
+  color: darkgrey;
+}
+
+.gen-btn {
+  border: none;
+  padding: 1em 2em;
+  background-color: var(--greenColor);
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+.gen-btn:hover {
+  cursor: pointer;
+  background-color: #4b5563;
+}
+
+
+.gen-text {
+  background-color: var(--secondryColor);
+  border: none;
+  padding: .5em 2em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-radius: 5px 0 0 5px;
+  text-align: center;
+  color: var(--greenColor);
+  
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copy-btn {
+  border: none;
+  background-color: var(--greenColor);
+  padding: .5em 1em;
+  border-radius:0 5px 5px 0;
+  color: white;
+}
+
+.copy-btn:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+  color: black;
+}
+
+.left-input{
+  display: flex;
+  align-items: center;
+}
+.right-input {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
